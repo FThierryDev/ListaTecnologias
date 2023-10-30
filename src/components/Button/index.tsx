@@ -13,7 +13,7 @@ interface Props extends TouchableOpacityProps {
 }
 
 export function Button({ iconName, trasparent = false, ...rest }: Props) {
-  let backgroundColorButton = "#8b14f9";
+  let backgroundColorButton = "#1E6F9F";
 
   if (trasparent) {
     backgroundColorButton = "#333333";

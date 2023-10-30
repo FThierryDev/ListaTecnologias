@@ -2,16 +2,22 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   container: {
+    backgroundColor: "#262626",
+    padding: 12,
+    width: 327,
+    minHeight: 64,
+    borderRadius: 8,
+    display: "flex",
     flexDirection: "row",
+    justifyContent: "space-between",
     alignItems: "center",
-    borderRadius: 5,
-    marginBottom: 10,
-    width: "100%",
+    marginTop: 8,
+    borderWidth: 1,
+    borderColor: "#333333",
   },
 
   containerText: {
-    backgroundColor: "#333333",
-    alignItems: "center",
+    backgroundColor: "#262626",
     flex: 1,
     justifyContent: "center",
     height: 56,
@@ -19,8 +25,8 @@ export const styles = StyleSheet.create({
   },
 
   technologyName: {
-    fontSize: 50,
-    color: "#FDFCFE",
-    fontWeight: "bold",
+    color: "#fff",
+    fontSize: 14,
+    width: "80%",
   },
 });

@@ -3,38 +3,82 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#1A1A1A",
+  },
+
+  header: {
     paddingHorizontal: 24,
     paddingTop: 75,
-    backgroundColor: "#131016",
+    backgroundColor: "black",
   },
 
   title: {
-    color: "#FDFCFE",
-    fontSize: 34,
-    fontWeight: "bold",
-  },
-
-  date: {
-    color: "#6B6B6B",
-    fontSize: 16,
-    lineHeight: 16,
+    textAlign: "center",
+    fontWeight: "900",
+    color: "#4EA8DE",
+    fontSize: 20,
+    lineHeight: 24.2,
   },
 
   containerRegisterTech: {
+    paddingHorizontal: 24,
+    paddingTop: 92,
     flexDirection: "row",
     alignItems: "center",
-    marginTop: 44,
-    marginBottom: 34,
+    gap: 4,
+    height: 75,
+    backgroundColor: "black",
+  },
+
+  content: {
+    paddingHorizontal: 24,
+  },
+
+  finished: {
+    fontWeight: "bold",
+    color: "#8284FA",
+  },
+
+  count: {
+    backgroundColor: "#333333",
+    color: "white",
+    width: 25,
+    height: 19,
+    marginLeft: 8,
+    fontSize: 13,
+    textAlign: "center",
+    borderRadius: 10,
+  },
+
+  situation: {
+    marginTop: 50,
+    alignItems: "center",
+    width: 348,
+    height: 22,
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 20,
+  },
+
+  situationText: {
+    display: "flex",
+    flexDirection: "row",
+  },
+
+  created: {
+    fontWeight: "bold",
+    color: "#4EA8DE",
   },
 
   subTitleListTech: {
     color: "#FDFCFE",
-    fontSize: 24,
+    fontSize: 14,
     fontWeight: "bold",
   },
 
   containerListTech: {
-    marginTop: 24,
+    alignItems: "center",
   },
 
   input: {
@@ -47,9 +91,23 @@ export const styles = StyleSheet.create({
     borderRadius: 4,
   },
 
+  scorollList: {
+    height: 450,
+  },
+
   listEmpty: {
-    color: "#FDFCFE",
-    fontSize: 20,
-    textAlign: "center",
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 68,
+  },
+
+  textlistEmpty: {
+    color: "#808080",
+  },
+
+  line: {
+    width: "100%",
+    borderTopWidth: 1,
+    borderTopColor: "#333333",
   },
 });

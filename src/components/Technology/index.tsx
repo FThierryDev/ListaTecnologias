@@ -27,13 +27,13 @@ export function Technology({ techName, remove }: Props) {
       <View
         style={[
           styles.containerText,
-          checkout && { backgroundColor: "#1A1A1A" },
+          checkout && { backgroundColor: "#262626" },
         ]}
       >
         <Text
           style={[
             styles.technologyName,
-            checkout && { textDecorationLine: "line-through", color: "red" },
+            checkout && { textDecorationLine: "line-through", color: "#808080" },
           ]}
         >
           {techName}
